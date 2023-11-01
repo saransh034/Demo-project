@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 860px;
+    height: 82px;
+    padding: 16px, 0px, 16px, 0px;
+}
+
+.logo-image {
+    width: 150px;
+    height: 50px;
+    gap: 8px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    width: 418px;
+    height: 32px;
+    background: #fcfcfc;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    font-family: Metropolis;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-indent: 32px;
+}
+
+.search .search-icon {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.login-signup {
+    width: 148px;
+    height: 38px;
+    padding: 5px 9px 0px 16px;
+    border-radius: 8px;
+    gap: 8px;
+
+}
+
+.login-signup-button {
+    font-family: Metropolis !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 14px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    background-color: #F01C21 !important;
+    border-color: #F01C21 !important;
+}
+
+
+
+/* ----------------------------------------------- navbar----------------------------------------- */
+.navbar-custom {
+    background-color: #091431 !important;
+    color: #ffff;
+}
+
+.navbar-nav {
+    color: #ffff !important;
+}
+
+.navbar-toggler {
+    color: #091431 !important;
+    background-color: #ffff !important;
+}
+
+/* ----------------------------------------------- Slider----------------------------------------- */
+.carousel-custom {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-image {
+    width: 860px;
+    height: 413.22px;
+    border-radius: 32px;
+}
+
+/* -----------------------------------------------popular-product----------------------------------------- */
+.popular-product-option {
+    background-color: #ffff !important;
+    color: #000 !important;
+    border-color: #ffff !important;
+}
+
+.popular-product-option1 {
+    background-color: #ffff !important;
+    border-color: #ffff !important;
+}
+
+.popular-product-option:active {
+    background-color: #ffff !important;
+    color: red !important;
+}
+
+.popular-product-card {
+    width: 200px;
+    height: 238px !important;
+    /* padding: 16px 23px 15px 22px; */
+    border-radius: 10px !important;
+    border: 1px !important;
+}
